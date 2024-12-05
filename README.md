@@ -1,10 +1,19 @@
 # CartPool: A peer to peer delivery app delivery platform for your daily need requirements!
 
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
+
 This is a platform where potential customers can connect with shoppers who willing to buy the the groceries and other items from the intended stores nearby and can deliver them to the customers for a small delivery fee. The main idea behind this project is to help customers who are stuck with their work and want to buy daily necessities. This where shoppers, who are going to buy their own stuff can accept the orders by these customer and can deliver them to the customers and can charge a small deliver fee.
 
-&nbsp;
+![Version](https://img.shields.io/badge/version-0.1.0-80b918)
+![Pipeline](https://img.shields.io/badge/pipeline-passing-80b918)
+![ReactVersion](https://img.shields.io/badge/react-v18.3-0077b6)
+![NodeVersion](https://img.shields.io/badge/node-v16.2-0077b6)
 
-# About the project
+## ![About the project](https://api.iconify.design/ion/information-circle.svg?height=28&color=%23ba3329) About the project
 
 This project has two individual node applications and hence will not run if you do not have node installed to install [Node](https://nodejs.org/en) (we suggest using the LTS version).
 
@@ -20,7 +29,7 @@ The applications are split for back-end and front-end, you need to instantiate b
 
 &nbsp;
 
-# Dependencies
+## ![Dependencies](https://api.iconify.design/fluent-emoji-high-contrast/package.svg?height=28&color=%23ba3329) Dependencies
 
 ```JSON
 "@fortawesome/fontawesome-svg-core": "^6.3.0",
@@ -87,13 +96,11 @@ Location to make the change:
 
 The entire instructions on how to make the API calls from the frontend to backend are present in the [README.md](https://github.com/sagarshah97/cartpool/blob/main/backend/README.md)
 
-&nbsp;
-
-# Getting Started
+## ![Getting Started](https://api.iconify.design/fluent/share-screen-start-24-filled.svg?height=28&color=%23ba3329) Getting Started
 
 Clone the project using this command.
 
-### `https://github.com/sagarshah97/cartpool.git`
+> `https://github.com/sagarshah97/cartpool.git`
 
 Once the project has been cloned run the below commands in both the folders (frontend and backend) . You will need to use node package manager (npm) that comes bundled with node to run all the below commands:
 
@@ -107,9 +114,8 @@ This will start a local instance of the node application on your PC
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser, this view is food for development as any changes you make in the code will be refreshed and show up.
 
-&nbsp;
 
-# Hard Coded Dependencies
+## ![Hard Coded Dependencies](https://api.iconify.design/ion/hardware-chip-sharp.svg?height=28&color=%23ba3329) Hard Coded Dependencies
 
 You should use your own API keys for all these dependencies, although these are not required but if these aren't added the functionalities mentioned for each of them will not work and might ruin the user experience
 
@@ -122,7 +128,7 @@ _Email API Key_ - To send emails to the customers
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-# Building the application:
+## ![Building the application](https://api.iconify.design/ion/build-outline.svg?height=28&color=%23ba3329) Building the application:
 
 Clone the repo, Open the project folder group 26 in `IntelliJ` in the new window. Right click and build the module to compile. No other dependencies are needed build the application.
 
@@ -134,19 +140,15 @@ For VSCode, navigate to each `frontend` and `backend` (backend only if running o
 
 For Node.js, you will need to have Node.js and npm (Node Package Manager) installed on your system. You can download the latest version of Node.js from the official website, and npm will be installed automatically along with Node.js.
 
-&nbsp;
-
-# Testing the project
+## ![Testing the project](https://api.iconify.design/fluent-mdl2/test-suite.svg?height=28&color=%23ba3329) Testing the project
 
 Use this command to run the test cases present `backend` folder
 
 > `npm run coverage`
 
-&nbsp;
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Code Smells and refactoring
+## ![Code Smells and refactoring](https://api.iconify.design/codicon/bracket-error.svg?height=28&color=%23ba3329) Code Smells and refactoring
 
 The entire report on code smells and refactoring done to remove them can be found under `Code Smells` folder.
 
@@ -177,7 +179,7 @@ Following are the screenshots from the sonarqube:
 - https://git.cs.dal.ca/courses/2023-winter/csci-5308/group26/-/blob/main/Images/SonarQube2.png
   [Sonarqube 2](Images/SonarQube2.png)
 
-## References
+## ![References](https://api.iconify.design/codicon/references.svg?height=28&color=%23ba3329) References
 
 - Table creation: [Editable Table in ReactJs](https://github.com/chrisblakely01/react-creating-a-table)
 
@@ -187,9 +189,7 @@ Following are the screenshots from the sonarqube:
 
 - Payment gateway for users: [Payment Gateway (Stripe)](https://github.com/NikValdez/ReactStripeTutorial)
 
-&nbsp;
-
-# Features
+## ![Features](https://api.iconify.design/fluent/text-bullet-list-square-28-filled.svg?height=28&color=%23ba3329) Features
 
 - _Sign up (for both shopper and customer)_: This functionality will let the user (Shopper/Customer) register for the application for the desired role.
 - _Log in for both shopper and customer_: This will let the user login with the credentials created using signup
@@ -201,9 +201,7 @@ Following are the screenshots from the sonarqube:
 - _JWT Authentication_: Token based authentication which verifies the session of the user
 - _Places Autocomplete_: Use google maps API to get accurate addresses
 
-&nbsp;
-
-# User scenarios
+## ![User scenarios](https://api.iconify.design/ion/paper-plane.svg?height=28&color=%23ba3329) User scenarios
 
 > All the user scenarios and Sonarqube results are stored in the `Images` folder.
 
