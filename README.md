@@ -174,10 +174,10 @@ _CORS_: Not Fixed (Using cors to allow localhost to access this server)
 Following are the screenshots from the sonarqube:
 
 - https://git.cs.dal.ca/courses/2023-winter/csci-5308/group26/-/blob/main/Images/SonarQube1.png
-  [Sonarqube 1](Images/SonarQube1.png)
+  ![Sonarqube 1](Images/SonarQube1.png)
 
 - https://git.cs.dal.ca/courses/2023-winter/csci-5308/group26/-/blob/main/Images/SonarQube2.png
-  [Sonarqube 2](Images/SonarQube2.png)
+  ![Sonarqube 2](Images/SonarQube2.png)
 
 ## ![References](https://api.iconify.design/codicon/references.svg?height=28&color=%23ba3329) References
 
